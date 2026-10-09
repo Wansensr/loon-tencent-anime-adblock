@@ -1,5 +1,5 @@
-#!name = 腾讯动漫去广告
-#!desc = 拦截腾讯广告、推广和统计域名；不拦截漫画正文与账号服务
+#!name = 腾讯动漫去广告 v1.1.1
+#!desc = 腾讯动漫去广告 v1.1.1：拦截广告域名、开屏配置接口和开屏广告素材
 #!icon = https://raw.githubusercontent.com/Wansensr/loon-tencent-anime-adblock/main/tencent-anime-icon.jpg
 #!author = Codex
 #!homepage = https://github.com/Wansensr/loon-tencent-anime-adblock
