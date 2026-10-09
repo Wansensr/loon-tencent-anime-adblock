@@ -1,0 +1,26 @@
+# NAME: Tencent-Anime-AdBlock
+# DESC: Public ad/tracking domains for Tencent Anime
+# AUTHOR: Codex
+# UPDATED: 2026-10-09
+
+# Core Tencent ad SDK
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,ad.qq.com
+DOMAIN-SUFFIX,ads.qq.com
+DOMAIN-SUFFIX,adx.qq.com
+DOMAIN-SUFFIX,adcdn.qq.com
+DOMAIN-SUFFIX,pgdt.gtimg.com
+DOMAIN-SUFFIX,pgdt.gtimg.cn
+
+# Optional tracking/reporting
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,pingjs.qq.com
+DOMAIN-SUFFIX,pingfore.qq.com
+DOMAIN-SUFFIX,tajs.qq.com
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com
+DOMAIN-SUFFIX,oth.str.mdt.qq.com
+DOMAIN-SUFFIX,report.qq.com
+DOMAIN-SUFFIX,trace.qq.com
+DOMAIN-SUFFIX,h.trace.qq.com

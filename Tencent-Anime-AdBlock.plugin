@@ -1,0 +1,29 @@
+#!name = 腾讯动漫去广告
+#!desc = 拦截腾讯广告、推广和统计域名；不拦截漫画正文与账号服务
+#!icon = https://raw.githubusercontent.com/Wansensr/loon-tencent-anime-adblock/main/tencent-anime-icon.jpg
+#!author = Codex
+#!homepage = https://github.com/Wansensr/loon-tencent-anime-adblock
+#!type = normal
+
+[Rule]
+# 腾讯广告 SDK / 优量汇
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,ad.qq.com,REJECT
+DOMAIN-SUFFIX,ads.qq.com,REJECT
+DOMAIN-SUFFIX,adx.qq.com,REJECT
+DOMAIN-SUFFIX,adcdn.qq.com,REJECT
+DOMAIN-SUFFIX,pgdt.gtimg.com,REJECT
+DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
+
+# 广告监测 / 推广统计
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-SUFFIX,beacon.qq.com,REJECT
+DOMAIN-SUFFIX,pingjs.qq.com,REJECT
+DOMAIN-SUFFIX,pingfore.qq.com,REJECT
+DOMAIN-SUFFIX,tajs.qq.com,REJECT
+DOMAIN-SUFFIX,oth.eve.mdt.qq.com,REJECT
+DOMAIN-SUFFIX,oth.str.mdt.qq.com,REJECT
+DOMAIN-SUFFIX,report.qq.com,REJECT
+DOMAIN-SUFFIX,trace.qq.com,REJECT
+DOMAIN-SUFFIX,h.trace.qq.com,REJECT
