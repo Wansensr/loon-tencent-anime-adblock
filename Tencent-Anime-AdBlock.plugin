@@ -27,3 +27,10 @@ DOMAIN-SUFFIX,oth.str.mdt.qq.com,REJECT
 DOMAIN-SUFFIX,report.qq.com,REJECT
 DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN-SUFFIX,h.trace.qq.com,REJECT
+[Rewrite]
+# 腾讯动漫开屏广告主素材：直接让请求失败，避免透明图继续触发开屏容器
+# 公开规则参考：Zz1xuan/ONE TencentComic.plugin
+^https:\/\/manhua\.acimg\.cn\/operation\/0\/[^/?]+\.jpg\/0\?tp=sharp(?:&.*)?$ - reject
+
+[MitM]
+hostname = manhua.acimg.cn
