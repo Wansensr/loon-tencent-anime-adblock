@@ -28,9 +28,11 @@ DOMAIN-SUFFIX,report.qq.com,REJECT
 DOMAIN-SUFFIX,trace.qq.com,REJECT
 DOMAIN-SUFFIX,h.trace.qq.com,REJECT
 [Rewrite]
+# 腾讯动漫开屏配置接口：直接拒绝，避免返回开屏广告配置
+^https?:\\/\\/iphone\\.ac\\.qq\\.com\\/.*\\/Support\\/(getSystemConf|bootScreen) - reject
 # 腾讯动漫开屏广告主素材：直接让请求失败，避免透明图继续触发开屏容器
 # 公开规则参考：Zz1xuan/ONE TencentComic.plugin
 ^https:\/\/manhua\.acimg\.cn\/operation\/0\/[^/?]+\.jpg\/0\?tp=sharp(?:&.*)?$ - reject
 
 [MitM]
-hostname = manhua.acimg.cn
+hostname = manhua.acimg.cn,iphone.ac.qq.com
